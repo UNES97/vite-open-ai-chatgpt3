@@ -4,7 +4,7 @@ export const arrayOptions = [
         id: "q&a",
         description: "Answer questions based on existing knowledge",
         options: {
-            model: "gpt-3.5-turbo-0613",
+            model: "text-davinci-003",
             temperature: 0,
             max_tokens: 100,
             top_p: 1,
@@ -17,7 +17,7 @@ export const arrayOptions = [
         id: "grammerCorrection",
         description: "Corrects sentences into standard English.",
         options: {
-            model: "gpt-3.5-turbo-0613",
+            model: "text-davinci-003",
             temperature: 0,
             max_tokens: 100,
             top_p: 1,
@@ -30,7 +30,7 @@ export const arrayOptions = [
         id: "summary",
         description: "Translates difficult text into simpler concepts.",
         options: {
-            model: "gpt-3.5-turbo-0613",
+            model: "text-davinci-003",
             temperature: 0.7,
             max_tokens: 64,
             top_p: 1.0,
@@ -43,7 +43,7 @@ export const arrayOptions = [
         id: "translate",
         description: "Translates English text into French, Spanish and Japanese.",
         options: {
-            model: "gpt-3.5-turbo-0613",
+            model: "text-davinci-003",
             temperature: 0.3,
             max_tokens: 100,
             top_p: 1.0,
@@ -56,7 +56,7 @@ export const arrayOptions = [
         id: "movieToEmoji",
         description: "Convert movie titles into emoji.",
         options: {
-            model: "gpt-3.5-turbo-0613",
+            model: "text-davinci-003",
             temperature: 0,
             max_tokens: 100,
             top_p: 1,
@@ -69,7 +69,7 @@ export const arrayOptions = [
         id: "explainCode",
         description: "Explain a complicated piece of code.",
         options: {
-            model: "gpt-3.5-turbo-0613",
+            model: "text-davinci-003",
             temperature: 0,
             max_tokens: 64,
             top_p: 1.0,
@@ -82,7 +82,7 @@ export const arrayOptions = [
         id: "jstopy",
         description: "Convert simple JavaScript expressions into Python.",
         options: {
-            model: "gpt-3.5-turbo-0613",
+            model: "text-davinci-003",
             temperature: 0,
             max_tokens: 64,
             top_p: 1.0,
